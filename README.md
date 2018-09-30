@@ -2,7 +2,7 @@
 
 MinimalClock is a MacOS screensaver.
 
-[(Screenshot.gif)](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip)
+[![Countdown Screen Saver](Screenshot.gif)](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip)
 
 ## Installation ##
 
