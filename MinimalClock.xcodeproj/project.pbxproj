@@ -97,7 +97,7 @@
 			dependencies = (
 			);
 			name = MinimalClock;
-			productName = Motivation;
+			productName = MinimalClock;
 			productReference = 21F222261B73B5AC00B9A11A /* MinimalClock.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -126,7 +126,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Sam Soffes";
+				ORGANIZATIONNAME = "Mattia Rossini";
 				TargetAttributes = {
 					21F222251B73B5AC00B9A11A = {
 						CreatedOnToolsVersion = 6.4;
@@ -352,7 +352,7 @@
 				);
 				INFOPLIST_FILE = Preview/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.countdown-preview";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattiarossini.minimalclock-preview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -366,7 +366,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Preview/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.samsoffes.countdown-preview";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattiarossini.minimalclock-preview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
