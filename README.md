@@ -1,13 +1,17 @@
 # MinimalClock #
 
-MinimalClock is a MacOS screensaver.
+MinimalClock is a MacOS screen saver that displays the time.
 
-[![MinimalClock screensaver](Screenshot.gif)](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip)
+[![MinimalClock screen saver](Screenshot.gif)](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip)
 
 ## Installation ##
 
 [Click here to download](https://github.com/mattiarossini/MinimalClock/releases/download/v1.0/MinimalClock.saver.zip).
-* Unzip and double-click.
+* Unzip, double-click and confirm installation.
+* Open the System Preferences, choose Screen Saver and activate MinimalClock.
+
+## Uninstall ##
+Open the System Preferences, choose Screen Saver, right-click on MinimalClock and choose delete.
 
 ## Author ##
 
