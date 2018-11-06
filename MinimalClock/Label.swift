@@ -1,12 +1,13 @@
-/*
- *  Created by Mattia Rossini
- *  September 2018
- */
-
 import AppKit
 
-// Background
+/**
+ Class for background
+ - Author:  Mattia Rossini
+ - Date:    September 2018
+ - Version: 1.0
+ */
 final class Label: NSTextField {
+    
 	override init(frame: NSRect) {
 		super.init(frame: frame)
 		drawsBackground = false

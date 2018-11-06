@@ -1,10 +1,10 @@
-/*
- *  Created by Mattia Rossini
- *  September 2018
- */
-
 import ScreenSaver
 
+/**
+ - Author:  Mattia Rossini
+ - Date:    September 2018
+ - Version: 1.0
+ */
 final class MinimalClockView: ScreenSaverView {
 
 	private let hoursView: View = {
@@ -66,7 +66,6 @@ final class MinimalClockView: ScreenSaverView {
         minutesView.textLabel.stringValue = String(format: "%02d", calendar.component(.minute, from: date))
     }
 
-    
 	private func initialize() {
 		placesView.addArrangedSubview(hoursView)
 		placesView.addArrangedSubview(minutesView)

@@ -1,14 +1,14 @@
-/*
- *  Created by Mattia Rossini
- *  September 2018
- */
-
 import AppKit
 
-// Numbers and texts
+/**
+ Class for numbers and text
+ - Author:  Mattia Rossini
+ - Date:    September 2018
+ - Version: 1.0
+ */
 final class View: NSView {
 
-    // Numbers
+    // Label for numbers: hours and minutes
 	let textLabel: Label = {
 		let label = Label()
 		label.translatesAutoresizingMaskIntoConstraints = false
@@ -17,7 +17,7 @@ final class View: NSView {
 		return label
 	}()
     
-    // Text: hours and minutes
+    // Label for text: "hours" and "minutes"
 	let detailLabel: Label = {
 		let label = Label()
 		label.translatesAutoresizingMaskIntoConstraints = false
@@ -25,7 +25,6 @@ final class View: NSView {
 		label.alignment = .center
 		return label
 	}()
-
 
 	// Initializers
 	init() {
