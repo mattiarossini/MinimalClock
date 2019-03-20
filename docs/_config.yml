@@ -1,0 +1,8 @@
+title: MinimalClock
+description: MinimalClock is a MacOS screen saver that displays the time.
+
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
