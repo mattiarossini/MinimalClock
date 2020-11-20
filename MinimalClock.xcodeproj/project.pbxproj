@@ -3,16 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		218D6EE720FC3CEB0029D4A9 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE020FC3CEB0029D4A9 /* Label.swift */; };
 		218D6EE920FC3CEB0029D4A9 /* MinimalClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE220FC3CEB0029D4A9 /* MinimalClockView.swift */; };
 		218D6EEA20FC3CEB0029D4A9 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE320FC3CEB0029D4A9 /* View.swift */; };
-		218D6EF920FC3D440029D4A9 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE020FC3CEB0029D4A9 /* Label.swift */; };
-		218D6EFB20FC3D440029D4A9 /* MinimalClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE220FC3CEB0029D4A9 /* MinimalClockView.swift */; };
-		218D6EFC20FC3D440029D4A9 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218D6EE320FC3CEB0029D4A9 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,18 +18,10 @@
 		218D6EE220FC3CEB0029D4A9 /* MinimalClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalClockView.swift; sourceTree = "<group>"; };
 		218D6EE320FC3CEB0029D4A9 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		21F222261B73B5AC00B9A11A /* MinimalClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimalClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		21F2223A1B73B60100B9A11A /* Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		21F222221B73B5AC00B9A11A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F222371B73B60100B9A11A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				21F222261B73B5AC00B9A11A /* MinimalClock.saver */,
-				21F2223A1B73B60100B9A11A /* Preview.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,23 +89,6 @@
 			productReference = 21F222261B73B5AC00B9A11A /* MinimalClock.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
-		21F222391B73B60100B9A11A /* Preview */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21F222531B73B60100B9A11A /* Build configuration list for PBXNativeTarget "Preview" */;
-			buildPhases = (
-				21F222361B73B60100B9A11A /* Sources */,
-				21F222371B73B60100B9A11A /* Frameworks */,
-				21F222381B73B60100B9A11A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Preview;
-			productName = Preview;
-			productReference = 21F2223A1B73B60100B9A11A /* Preview.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -133,13 +104,10 @@
 						LastSwiftMigration = 1220;
 						ProvisioningStyle = Manual;
 					};
-					21F222391B73B60100B9A11A = {
-						CreatedOnToolsVersion = 6.4;
-					};
 				};
 			};
 			buildConfigurationList = 21F222201B73B5AC00B9A11A /* Build configuration list for PBXProject "MinimalClock" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -152,20 +120,12 @@
 			projectRoot = "";
 			targets = (
 				21F222251B73B5AC00B9A11A /* MinimalClock */,
-				21F222391B73B60100B9A11A /* Preview */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		21F222241B73B5AC00B9A11A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F222381B73B60100B9A11A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,16 +142,6 @@
 				218D6EE920FC3CEB0029D4A9 /* MinimalClockView.swift in Sources */,
 				218D6EEA20FC3CEB0029D4A9 /* View.swift in Sources */,
 				218D6EE720FC3CEB0029D4A9 /* Label.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F222361B73B60100B9A11A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				218D6EF920FC3D440029D4A9 /* Label.swift in Sources */,
-				218D6EFC20FC3D440029D4A9 /* View.swift in Sources */,
-				218D6EFB20FC3D440029D4A9 /* MinimalClockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +266,11 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/MinimalClock/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattiarossini.minimalclock;
 				PRODUCT_NAME = MinimalClock;
@@ -338,44 +292,17 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/MinimalClock/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattiarossini.minimalclock;
 				PRODUCT_NAME = MinimalClock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
-			};
-			name = Release;
-		};
-		21F222541B73B60100B9A11A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Preview/Support/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattiarossini.minimalclock-preview";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		21F222551B73B60100B9A11A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Preview/Support/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattiarossini.minimalclock-preview";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -396,15 +323,6 @@
 			buildConfigurations = (
 				21F222321B73B5AC00B9A11A /* Debug */,
 				21F222331B73B5AC00B9A11A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21F222531B73B60100B9A11A /* Build configuration list for PBXNativeTarget "Preview" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21F222541B73B60100B9A11A /* Debug */,
-				21F222551B73B60100B9A11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

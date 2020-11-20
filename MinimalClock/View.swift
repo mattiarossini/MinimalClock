@@ -3,7 +3,7 @@ import AppKit
 /**
  Class for numbers and text
  - Author:  Mattia Rossini
- - Date:    September 2018
+ - Date:    November 2020
  - Version: 1.0
  */
 final class View: NSView {

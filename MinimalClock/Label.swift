@@ -3,7 +3,7 @@ import AppKit
 /**
  Class for background
  - Author:  Mattia Rossini
- - Date:    September 2018
+ - Date:    November 2020
  - Version: 1.0
  */
 final class Label: NSTextField {
